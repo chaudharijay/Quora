@@ -9,6 +9,7 @@ import numpy as np
 import nltk
 
 nltk.download('stopwords')
+from nltk.corpus import stopwords
 
 cv = pickle.load(open('cv.pkl','rb'))
 
